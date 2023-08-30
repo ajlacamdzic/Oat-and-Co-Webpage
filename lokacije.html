@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokacija</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <img class="naslovnaSlika" src="zob.png" alt="gornjanaslovna" class="responsive">
+        <div class="header">
+            <h2>Oat & Co</h2>
+            <p>grab & go&#128526;</p>
+        </div>
+    </div>
+
+    <ul class="topnav">
+        <li><a href="main.html">Početna</a></li>
+        <li><a href="lokacije.html">Lokacija</a></li>
+        <li><a href="meni.html">Meni</a></li>
+    </ul>
+
+    <div class="google-map">
+        <iframe class="lokacija" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22882.61419991503!2d17.883713300702393!3d44.2003357833381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee242e46cb789%3A0x5954608aaad7436e!2sMetallurgical%20Institute%20%22Kemal%20Kapetanovi%C4%87%22!5e0!3m2!1sen!2sba!4v1680816169193!5m2!1sen!2sba" 
+            width="1265" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="container2">
+        <h2>Kontakt</h2>
+        <p>Nudimo ketering za evente (male ili velike). Mi razumijemo vaše potrebe i težimo ispuniti ih. Kontaktirajte nas!</p>
+        <p>Za sve narudžbe možete nas kontaktirati putem telefona 000-000-000 ili nas kontaktirati ovdje: </p>
+        <form action="https://formsubmit.co/camdzic.ajla.21@size.ba" method="POST">
+            <input type="hidden" value="Nova narudžba">
+            <p><input type="text" name="Kupac" placeholder="Ime i prezime" required></p>
+            <p><input type="email" name="Email kupca" placeholder="Vaš email" required></p>
+            <p><input type="text" name="Poruka" placeholder="Narudžba/pohvala/kritika"></p>
+            <p><button class="posalji" type="submit">Pošalji</button>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/hvala.html">
+        </form>
+    </div>
+</body>
+</html>
